@@ -30,35 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DangNhap));
             this.btnDangnhap = new System.Windows.Forms.Button();
-            this.btnDangky = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.bttXoa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnDangnhap
             // 
             this.btnDangnhap.BackColor = System.Drawing.Color.Transparent;
-            this.btnDangnhap.Location = new System.Drawing.Point(79, 232);
+            this.btnDangnhap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnDangnhap.Location = new System.Drawing.Point(177, 217);
             this.btnDangnhap.Name = "btnDangnhap";
             this.btnDangnhap.Size = new System.Drawing.Size(105, 36);
             this.btnDangnhap.TabIndex = 5;
             this.btnDangnhap.Text = "Đăng nhập";
             this.btnDangnhap.UseVisualStyleBackColor = false;
             this.btnDangnhap.Click += new System.EventHandler(this.btnDangnhap_Click);
-            // 
-            // btnDangky
-            // 
-            this.btnDangky.BackColor = System.Drawing.Color.Transparent;
-            this.btnDangky.Location = new System.Drawing.Point(218, 232);
-            this.btnDangky.Name = "btnDangky";
-            this.btnDangky.Size = new System.Drawing.Size(113, 36);
-            this.btnDangky.TabIndex = 6;
-            this.btnDangky.Text = "Đăng ký";
-            this.btnDangky.UseVisualStyleBackColor = false;
-       
             // 
             // label1
             // 
@@ -106,12 +96,27 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(142, 47);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 25);
             this.label3.TabIndex = 0;
             this.label3.Text = "Đăng nhập";
+            this.label3.Click += new System.EventHandler(this.Label3_Click);
+            // 
+            // bttXoa
+            // 
+            this.bttXoa.BackColor = System.Drawing.Color.Transparent;
+            this.bttXoa.FlatAppearance.BorderSize = 0;
+            this.bttXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttXoa.Image = global::BTL_QLNS.Properties.Resources.iconfinder_Remove_278741;
+            this.bttXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.bttXoa.Location = new System.Drawing.Point(395, 1);
+            this.bttXoa.Name = "bttXoa";
+            this.bttXoa.Size = new System.Drawing.Size(39, 34);
+            this.bttXoa.TabIndex = 6;
+            this.bttXoa.UseVisualStyleBackColor = false;
+            this.bttXoa.Click += new System.EventHandler(this.BttXoa_Click);
             // 
             // DangNhap
             // 
@@ -120,18 +125,18 @@
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(434, 361);
+            this.ControlBox = false;
+            this.Controls.Add(this.bttXoa);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnDangky);
             this.Controls.Add(this.btnDangnhap);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.DangNhap_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -141,12 +146,12 @@
         #endregion
 
         private System.Windows.Forms.Button btnDangnhap;
-        private System.Windows.Forms.Button btnDangky;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button bttXoa;
     }
 }
 

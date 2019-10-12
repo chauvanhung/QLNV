@@ -38,9 +38,11 @@
             this.btnreset = new System.Windows.Forms.Button();
             this.dtpNgaysinh = new System.Windows.Forms.DateTimePicker();
             this.cbxDuan = new System.Windows.Forms.ComboBox();
-            this.dUANBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dUANBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.quanlynhasu_3FDataSet7 = new BTL_QLNS.Quanlynhasu_3FDataSet7();
             this.cbxPhongban = new System.Windows.Forms.ComboBox();
-            this.pHONGBANBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pHONGBANBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.quanlynhasu_3FDataSet3 = new BTL_QLNS.Quanlynhasu_3FDataSet3();
             this.txtTenNv = new System.Windows.Forms.TextBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.txtLuong = new System.Windows.Forms.TextBox();
@@ -67,11 +69,6 @@
             this.luong_Nv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_Pb = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_Da = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pHONGBANTableAdapter = new BTL_QLNS.Quanlynhasu_3FDataSetTableAdapters.PHONGBANTableAdapter();
-            this.dUANTableAdapter = new BTL_QLNS.Quanlynhasu_3FDataSet1TableAdapters.DUANTableAdapter();
-            this.quanlynhasu_3FDataSet2 = new BTL_QLNS.Quanlynhasu_3FDataSet2();
-            this.nHANVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.nHANVIENTableAdapter = new BTL_QLNS.Quanlynhasu_3FDataSet2TableAdapters.NHANVIENTableAdapter();
             this.idNvDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameNvDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ngaysinhNvDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -79,8 +76,13 @@
             this.luongNvDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idPbDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idDaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quanlynhasu_3FDataSet3 = new BTL_QLNS.Quanlynhasu_3FDataSet3();
-            this.pHONGBANBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.nHANVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.quanlynhasu_3FDataSet2 = new BTL_QLNS.Quanlynhasu_3FDataSet2();
+            this.dUANBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pHONGBANBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pHONGBANTableAdapter = new BTL_QLNS.Quanlynhasu_3FDataSetTableAdapters.PHONGBANTableAdapter();
+            this.dUANTableAdapter = new BTL_QLNS.Quanlynhasu_3FDataSet1TableAdapters.DUANTableAdapter();
+            this.nHANVIENTableAdapter = new BTL_QLNS.Quanlynhasu_3FDataSet2TableAdapters.NHANVIENTableAdapter();
             this.pHONGBANTableAdapter1 = new BTL_QLNS.Quanlynhasu_3FDataSet3TableAdapters.PHONGBANTableAdapter();
             this.quanlynhasu_3FDataSet5 = new BTL_QLNS.Quanlynhasu_3FDataSet5();
             this.nHANVIENBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
@@ -88,26 +90,24 @@
             this.quanlynhasu_3FDataSet6 = new BTL_QLNS.Quanlynhasu_3FDataSet6();
             this.dUANBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.dUANTableAdapter1 = new BTL_QLNS.Quanlynhasu_3FDataSet6TableAdapters.DUANTableAdapter();
-            this.quanlynhasu_3FDataSet7 = new BTL_QLNS.Quanlynhasu_3FDataSet7();
-            this.dUANBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.dUANTableAdapter2 = new BTL_QLNS.Quanlynhasu_3FDataSet7TableAdapters.DUANTableAdapter();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pHONGBANBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGBANBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet3)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pHONGBANBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGBANBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -184,6 +184,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(578, 244);
             this.panel2.TabIndex = 1;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel2_Paint);
             // 
             // btnExportExcel
             // 
@@ -225,6 +226,7 @@
             // cbxDuan
             // 
             this.cbxDuan.DataSource = this.dUANBindingSource2;
+            this.cbxDuan.DisplayMember = "id_Da";
             this.cbxDuan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbxDuan.FormattingEnabled = true;
             this.cbxDuan.Location = new System.Drawing.Point(389, 156);
@@ -232,6 +234,16 @@
             this.cbxDuan.Size = new System.Drawing.Size(149, 26);
             this.cbxDuan.TabIndex = 16;
             this.cbxDuan.ValueMember = "id_Da";
+            // 
+            // dUANBindingSource2
+            // 
+            this.dUANBindingSource2.DataMember = "DUAN";
+            this.dUANBindingSource2.DataSource = this.quanlynhasu_3FDataSet7;
+            // 
+            // quanlynhasu_3FDataSet7
+            // 
+            this.quanlynhasu_3FDataSet7.DataSetName = "Quanlynhasu_3FDataSet7";
+            this.quanlynhasu_3FDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // cbxPhongban
             // 
@@ -244,6 +256,16 @@
             this.cbxPhongban.Size = new System.Drawing.Size(149, 26);
             this.cbxPhongban.TabIndex = 14;
             this.cbxPhongban.ValueMember = "id_Pb";
+            // 
+            // pHONGBANBindingSource1
+            // 
+            this.pHONGBANBindingSource1.DataMember = "PHONGBAN";
+            this.pHONGBANBindingSource1.DataSource = this.quanlynhasu_3FDataSet3;
+            // 
+            // quanlynhasu_3FDataSet3
+            // 
+            this.quanlynhasu_3FDataSet3.DataSetName = "Quanlynhasu_3FDataSet3";
+            this.quanlynhasu_3FDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // txtTenNv
             // 
@@ -532,28 +554,6 @@
             this.id_Da.ReadOnly = true;
             this.id_Da.Width = 65;
             // 
-            // pHONGBANTableAdapter
-            // 
-            this.pHONGBANTableAdapter.ClearBeforeFill = true;
-            // 
-            // dUANTableAdapter
-            // 
-            this.dUANTableAdapter.ClearBeforeFill = true;
-            // 
-            // quanlynhasu_3FDataSet2
-            // 
-            this.quanlynhasu_3FDataSet2.DataSetName = "Quanlynhasu_3FDataSet2";
-            this.quanlynhasu_3FDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // nHANVIENBindingSource
-            // 
-            this.nHANVIENBindingSource.DataMember = "NHANVIEN";
-            this.nHANVIENBindingSource.DataSource = this.quanlynhasu_3FDataSet2;
-            // 
-            // nHANVIENTableAdapter
-            // 
-            this.nHANVIENTableAdapter.ClearBeforeFill = true;
-            // 
             // idNvDataGridViewTextBoxColumn
             // 
             this.idNvDataGridViewTextBoxColumn.DataPropertyName = "id_Nv";
@@ -603,15 +603,27 @@
             this.idDaDataGridViewTextBoxColumn.Name = "idDaDataGridViewTextBoxColumn";
             this.idDaDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // quanlynhasu_3FDataSet3
+            // nHANVIENBindingSource
             // 
-            this.quanlynhasu_3FDataSet3.DataSetName = "Quanlynhasu_3FDataSet3";
-            this.quanlynhasu_3FDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.nHANVIENBindingSource.DataMember = "NHANVIEN";
+            this.nHANVIENBindingSource.DataSource = this.quanlynhasu_3FDataSet2;
             // 
-            // pHONGBANBindingSource1
+            // quanlynhasu_3FDataSet2
             // 
-            this.pHONGBANBindingSource1.DataMember = "PHONGBAN";
-            this.pHONGBANBindingSource1.DataSource = this.quanlynhasu_3FDataSet3;
+            this.quanlynhasu_3FDataSet2.DataSetName = "Quanlynhasu_3FDataSet2";
+            this.quanlynhasu_3FDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // pHONGBANTableAdapter
+            // 
+            this.pHONGBANTableAdapter.ClearBeforeFill = true;
+            // 
+            // dUANTableAdapter
+            // 
+            this.dUANTableAdapter.ClearBeforeFill = true;
+            // 
+            // nHANVIENTableAdapter
+            // 
+            this.nHANVIENTableAdapter.ClearBeforeFill = true;
             // 
             // pHONGBANTableAdapter1
             // 
@@ -645,16 +657,6 @@
             // 
             this.dUANTableAdapter1.ClearBeforeFill = true;
             // 
-            // quanlynhasu_3FDataSet7
-            // 
-            this.quanlynhasu_3FDataSet7.DataSetName = "Quanlynhasu_3FDataSet7";
-            this.quanlynhasu_3FDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dUANBindingSource2
-            // 
-            this.dUANBindingSource2.DataMember = "DUAN";
-            this.dUANBindingSource2.DataSource = this.quanlynhasu_3FDataSet7;
-            // 
             // dUANTableAdapter2
             // 
             this.dUANTableAdapter2.ClearBeforeFill = true;
@@ -664,29 +666,29 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Quanlynhanvien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quản lý nhân viên";
             this.Load += new System.EventHandler(this.Quanlynhanvien_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pHONGBANBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGBANBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet3)).EndInit();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pHONGBANBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGBANBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.quanlynhasu_3FDataSet7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dUANBindingSource2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -731,7 +733,6 @@
         private System.Windows.Forms.BindingSource dUANBindingSource;
         private Quanlynhasu_3FDataSet1TableAdapters.DUANTableAdapter dUANTableAdapter;
         private System.Windows.Forms.Button btnreset;
-        private System.Windows.Forms.Button btnExportExcel;
         private Quanlynhasu_3FDataSet2 quanlynhasu_3FDataSet2;
         private System.Windows.Forms.BindingSource nHANVIENBindingSource;
         private Quanlynhasu_3FDataSet2TableAdapters.NHANVIENTableAdapter nHANVIENTableAdapter;
@@ -754,5 +755,6 @@
         private Quanlynhasu_3FDataSet7 quanlynhasu_3FDataSet7;
         private System.Windows.Forms.BindingSource dUANBindingSource2;
         private Quanlynhasu_3FDataSet7TableAdapters.DUANTableAdapter dUANTableAdapter2;
+        private System.Windows.Forms.Button btnExportExcel;
     }
 }

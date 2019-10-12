@@ -208,6 +208,7 @@
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label17.Location = new System.Drawing.Point(65, 141);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(57, 18);
@@ -219,6 +220,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label18.Location = new System.Drawing.Point(65, 77);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(53, 18);
@@ -230,6 +232,7 @@
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label19.Location = new System.Drawing.Point(303, 141);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(46, 18);
@@ -241,6 +244,7 @@
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label20.Location = new System.Drawing.Point(303, 80);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(51, 18);
@@ -252,7 +256,8 @@
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label21.Location = new System.Drawing.Point(184, 18);
+            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label21.Location = new System.Drawing.Point(225, 27);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(146, 24);
             this.label21.TabIndex = 1;
@@ -358,12 +363,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Name = "Quanlyduan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quản lý dự án";
             this.Load += new System.EventHandler(this.Quanlyduan_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

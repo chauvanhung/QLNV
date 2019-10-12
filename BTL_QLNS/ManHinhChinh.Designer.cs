@@ -100,6 +100,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(784, 452);
+            this.ControlBox = false;
             this.Controls.Add(this.lblPMQLNS);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnDuan);
@@ -110,7 +111,6 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "ManHinhChinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Màn Hình Chính";
             this.ResumeLayout(false);
             this.PerformLayout();
 

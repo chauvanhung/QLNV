@@ -718,12 +718,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Name = "Quanlyphongban";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quản lý phòng ban";
             this.Load += new System.EventHandler(this.Quanlyphongban_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

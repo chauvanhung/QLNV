@@ -52,6 +52,7 @@ namespace BTL_QLNS
                 if (dt.Rows.Count>0)
                 {
                     MessageBox.Show("Đăng nhập thành công !");
+                    MessageBox.Show("Chào mừng chủ tịch đến với chương trình");
                     ManHinhChinh frmmhc = new ManHinhChinh();
                     frmmhc.FormClosed += new FormClosedEventHandler(frmmhc_Closed);
                     frmmhc.Show();
@@ -65,6 +66,11 @@ namespace BTL_QLNS
                 //    frmdk.Show();
                 //    this.Hide();
                 //}
+                else
+                {
+                    MessageBox.Show("Đăng nhập không thành công ");
+                    MessageBox.Show("Mời nhập lại");
+                }
             }
             catch (FormatException)
             {
@@ -74,6 +80,16 @@ namespace BTL_QLNS
             {
                 MessageBox.Show("Lỗi kết nối CSDL !");
             }
+        }
+
+        private void BttXoa_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
         }
 
         //private void btnDangky_Click(object sender, EventArgs e)

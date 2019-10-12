@@ -165,9 +165,19 @@ namespace BTL_QLNS
             obj.ActiveWorkbook.SaveCopyAs(duongDan + tenTap + ".xlsx");
             obj.ActiveWorkbook.Saved = true;
         }
+
+        //private void btnExportExcel_Click(object sender, EventArgs e)
+        //{
+
+        //}
         private void btnExportExcel_Click(object sender, EventArgs e)
         {
             ExportExcel(dgvNhanVien, @"D:\", "xuatfileExcel");
+        }
+
+        private void Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

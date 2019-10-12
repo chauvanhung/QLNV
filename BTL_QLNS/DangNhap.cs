@@ -92,12 +92,21 @@ namespace BTL_QLNS
 
         }
 
+        //private void Enter_ĐN(object sender, EventArgs e)
+        //{
+
+        //}
+
         //private void btnDangky_Click(object sender, EventArgs e)
         //{
         //    DangKy frmdk = new DangKy();
         //    frmdk.FormClosed += new FormClosedEventHandler(frmdangky_Closed);
         //    frmdk.Show();
         //    this.Hide();
+        //}
+        //private void Form1_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    if (e.KeyCode == Keys.Enter) ();
         //}
     }
 }
